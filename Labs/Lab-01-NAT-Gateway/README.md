@@ -58,6 +58,7 @@ az vm create \
 --resource-group RG-NAT-LAB \
 --name UbuntuVM
 
+```
 ## Validation
 
 Connect to the VM and run:
