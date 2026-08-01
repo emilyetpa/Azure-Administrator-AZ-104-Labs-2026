@@ -61,9 +61,9 @@ az vm create \
 ## Validation
 
 Connect to the VM and run:
- ```bash 
+ ```bash
 curl ifconfig.me
- ```
+```
 Expected result:
 The returned public IP should be the NAT Gateway public IP.
 
@@ -71,7 +71,8 @@ The returned public IP should be the NAT Gateway public IP.
 
 Delete the resource group:
  ```bash 
- az group delete --name RG-NAT-LAB
+ az group delete \
+   --name RG-NAT-LAB
  ```
 
 ## Key Takeaways
