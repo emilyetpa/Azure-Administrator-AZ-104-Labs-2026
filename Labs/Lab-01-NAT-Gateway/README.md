@@ -59,16 +59,20 @@ az vm create \
 --name UbuntuVM
 
 ## Validation
+
 Connect to the VM and run:
 curl ifconfig.me
 
 Expected result:
 The returned public IP should be the NAT Gateway public IP.
+
 ## Cleanup
+
 Delete the resource group:
 az group delete --name RG-NAT-LAB
 
 ## Key Takeaways
+
  - Azure NAT Gateway provides outbound Internet connectivity.
  - VMs keep private IP addresses.
  - Public IP exposure is avoided.
