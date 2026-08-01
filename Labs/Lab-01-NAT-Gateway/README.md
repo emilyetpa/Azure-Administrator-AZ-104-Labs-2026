@@ -57,7 +57,6 @@ Command example:
 az vm create \
 --resource-group RG-NAT-LAB \
 --name UbuntuVM
-
 ```
 ## Validation
 
@@ -70,7 +69,7 @@ The returned public IP should be the NAT Gateway public IP.
 ## Cleanup
 
 Delete the resource group:
-az group delete --name RG-NAT-LAB
+ ```bash az group delete --name RG-NAT-LAB ```
 
 ## Key Takeaways
 
