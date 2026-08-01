@@ -64,7 +64,6 @@ curl ifconfig.me
 
 Expected result:
 The returned public IP should be the NAT Gateway public IP.
-
 ## Cleanup
 Delete the resource group:
 az group delete --name RG-NAT-LAB
@@ -73,3 +72,5 @@ az group delete --name RG-NAT-LAB
  - Azure NAT Gateway provides outbound Internet connectivity.
  - VMs keep private IP addresses.
  - Public IP exposure is avoided.
+
+## References
