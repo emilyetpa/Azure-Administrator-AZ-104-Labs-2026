@@ -16,7 +16,7 @@ After completing this lab, you will learn how to:
 
 ## Architecture
 
-![Azure NAT Gateway Architecture](Diagrams/topology.png)
+![Azure NAT Gateway Architecture](Azure-Administrator-AZ-104-Labs-2026/Diagrams/topology.png)
 
 ## Environment
 
@@ -36,7 +36,7 @@ Explanation of the step.
 
 Screenshot:
 
-![Resource Group](Images/step01.png)
+![Resource Group](Azure-Administrator-AZ-104-Labs-2026/Images/step01.png)
 
 
 ### Step 2 - Create Virtual Network
@@ -45,7 +45,7 @@ Explanation.
 
 Screenshot:
 
-![VNet](Images/step02.png)
+![VNet](Azure-Administrator-AZ-104-Labs-2026/Images/step02.png)
 
 ### Step 3 - Deploy Linux VM
 
