@@ -15,8 +15,16 @@ After completing this lab, you will learn how to:
 - Verify outbound Internet access
 
 ## Architecture
+The following diagram illustrates the Azure infrastructure deployed in this lab.
 
-![Azure NAT Gateway Architecture](Azure-Administrator-AZ-104-Labs-2026/Diagrams/topology.png)
+![Azure NAT Gateway Architecture](Diagrams/topology.png)
+
+### Network Flow
+
+**Linux VM → Azure VNet/Subnet → NAT Gateway → Internet**
+
+The Linux VM does not have a public IP address. The NAT Gateway provides outbound Internet connectivity using its associated public IP address.
+![Azure NAT Gateway Architecture](Diagrams/topology.png)
 
 ## Environment
 
@@ -36,7 +44,7 @@ Explanation of the step.
 
 Screenshot:
 
-![Resource Group](Azure-Administrator-AZ-104-Labs-2026/Images/step01.png)
+![Resource Group](Images/step01.png)
 
 
 ### Step 2 - Create Virtual Network
@@ -45,7 +53,7 @@ Explanation.
 
 Screenshot:
 
-![VNet](Azure-Administrator-AZ-104-Labs-2026/Images/step02.png)
+![VNet](Images/step02.png)
 
 ### Step 3 - Deploy Linux VM
 
