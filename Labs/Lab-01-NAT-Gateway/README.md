@@ -36,7 +36,7 @@ Explanation of the step.
 
 Screenshot:
 
-![Resource Group](images/step01.png)
+![Resource Group](Images/step01.png)
 
 
 ### Step 2 - Create Virtual Network
@@ -45,7 +45,7 @@ Explanation.
 
 Screenshot:
 
-![VNet](images/step02.png)
+![VNet](Images/step02.png)
 
 ### Step 3 - Deploy Linux VM
 
