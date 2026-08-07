@@ -16,7 +16,7 @@ After completing this lab, you will learn how to:
 
 ## Architecture
 
-![Azure NAT Gateway Architecture](diagrams/topology.png)
+![Azure NAT Gateway Architecture](Diagrams/topology.png)
 
 ## Environment
 
